@@ -13,17 +13,19 @@
 		AFAB137E2ACBB8AC00E688C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFAB137C2ACBB8AC00E688C9 /* Main.storyboard */; };
 		AFAB13802ACBB8B100E688C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFAB137F2ACBB8B100E688C9 /* Assets.xcassets */; };
 		AFAB13832ACBB8B100E688C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFAB13812ACBB8B100E688C9 /* LaunchScreen.storyboard */; };
+		AFAB138B2ACBE1C200E688C9 /* ImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAB138A2ACBE1C200E688C9 /* ImageTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AFAB13732ACBB8AC00E688C9 /* FoodListApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodListApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFAB13762ACBB8AC00E688C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AFAB13782ACBB8AC00E688C9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AFAB137A2ACBB8AC00E688C9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AFAB137A2ACBB8AC00E688C9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = FoodListApp/ViewController.swift; sourceTree = SOURCE_ROOT; };
 		AFAB137D2ACBB8AC00E688C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AFAB137F2ACBB8B100E688C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AFAB13822ACBB8B100E688C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AFAB13842ACBB8B100E688C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFAB138A2ACBE1C200E688C9 /* ImageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				AFAB137F2ACBB8B100E688C9 /* Assets.xcassets */,
 				AFAB13812ACBB8B100E688C9 /* LaunchScreen.storyboard */,
 				AFAB13842ACBB8B100E688C9 /* Info.plist */,
+				AFAB138A2ACBE1C200E688C9 /* ImageTableViewCell.swift */,
 			);
 			path = FoodListApp;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AFAB137B2ACBB8AC00E688C9 /* ViewController.swift in Sources */,
+				AFAB138B2ACBE1C200E688C9 /* ImageTableViewCell.swift in Sources */,
 				AFAB13772ACBB8AC00E688C9 /* AppDelegate.swift in Sources */,
 				AFAB13792ACBB8AC00E688C9 /* SceneDelegate.swift in Sources */,
 			);
